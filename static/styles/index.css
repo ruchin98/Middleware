@@ -1,0 +1,49 @@
+html, body{
+    /* height: auto; */
+    color: #FFFFFF;
+}
+
+body{
+    background-color: #181818 !important;
+}
+
+.radioform{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+
+    /* border: 1px solid blue; */
+
+}
+
+.mid-main{
+    margin: 20% auto;
+    width: 60%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    /* background-color: #c45555; */
+    border: 1px solid white;
+}
+
+
+.navbar-custom {
+    background-color: #181818;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255, 255, 255);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
